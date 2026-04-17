@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <!-- Background -->
+  <rect width="400" height="200" fill="#FFF8E1" rx="12"/>
+  
+  <!-- Lotus flower petals (outer) -->
+  <g transform="translate(70, 100)">
+    <!-- Outer petals -->
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(30)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(90)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(150)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(210)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(240)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(270)"/>
+    <ellipse cx="0" cy="-38" rx="12" ry="28" fill="#FFD700" transform="rotate(300)"/>
+    
+    <!-- Inner petals -->
+    <ellipse cx="0" cy="-22" rx="9" ry="18" fill="#FFA500" transform="rotate(-22.5)"/>
+    <ellipse cx="0" cy="-22" rx="9" ry="18" fill="#FFA500" transform="rotate(22.5)"/>
+    <ellipse cx="0" cy="-22" rx="9" ry="18" fill="#FFA500" transform="rotate(67.5)"/>
+    <ellipse cx="0" cy="-22" rx="9" ry="18" fill="#FFA500" transform="rotate(112.5)"/>
+    <ellipse cx="0" cy="-22" rx="9" ry="18" fill="#FFA500" transform="rotate(157.5)"/>
+    <ellipse cx="0" cy="-22" rx="9" ry="18" fill="#FFA500" transform="rotate(202.5)"/>
+    <ellipse cx="0" cy="-22" rx="9" ry="18" fill="#FFA500" transform="rotate(247.5)"/>
+    <ellipse cx="0" cy="-22" rx="9" ry="18" fill="#FFA500" transform="rotate(292.5)"/>
+    
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="14" fill="#FF8C00"/>
+    <circle cx="0" cy="0" r="9" fill="#FFD700"/>
+    <circle cx="0" cy="0" r="5" fill="#FFA500"/>
+  </g>
+  
+  <!-- Text: Mundan Invitations -->
+  <text x="210" y="85" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#8B4513" text-anchor="middle">Mundan</text>
+  <text x="210" y="118" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#8B4513" text-anchor="middle">Invitations</text>
+  
+  <!-- Decorative lines -->
+  <line x1="120" y1="130" x2="300" y2="130" stroke="#FFD700" stroke-width="2"/>
+  <text x="210" y="155" font-family="Georgia, serif" font-size="13" fill="#B8860B" text-anchor="middle">✦ Mundan Sanskar Ceremony ✦</text>
+  
+  <!-- Border decoration -->
+  <rect x="4" y="4" width="392" height="192" fill="none" stroke="#FFD700" stroke-width="2" rx="10"/>
+  <rect x="8" y="8" width="384" height="184" fill="none" stroke="#FFA500" stroke-width="1" rx="8"/>
+</svg>
