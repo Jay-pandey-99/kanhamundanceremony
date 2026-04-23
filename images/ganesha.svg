@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#FFF8DC" rx="0"/>
+  
+  <!-- Decorative base -->
+  <rect x="120" y="430" width="160" height="30" fill="#8B6914" rx="5"/>
+  <rect x="100" y="455" width="200" height="20" fill="#6B4F10" rx="3"/>
+  
+  <!-- Body / dhoti area -->
+  <ellipse cx="200" cy="360" rx="70" ry="80" fill="#FFD700"/>
+  <ellipse cx="200" cy="360" rx="70" ry="80" fill="url(#bodyPattern)" opacity="0.3"/>
+  
+  <!-- Stomach / Lambodara -->
+  <ellipse cx="200" cy="330" rx="55" ry="60" fill="#DAA520"/>
+  
+  <!-- Arms -->
+  <!-- Right arm (holding modak) -->
+  <path d="M260 260 Q310 240 320 290 Q315 320 290 330" stroke="#DAA520" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <!-- Left arm (raised with trishul) -->
+  <path d="M140 260 Q90 240 80 280 Q75 310 100 330" stroke="#DAA520" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <!-- Front arms -->
+  <path d="M240 290 Q260 320 250 360" stroke="#DAA520" stroke-width="25" fill="none" stroke-linecap="round"/>
+  <path d="M160 290 Q140 320 150 360" stroke="#DAA520" stroke-width="25" fill="none" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <rect x="183" y="215" width="34" height="40" fill="#DAA520" rx="5"/>
+  
+  <!-- Head / Elephant head -->
+  <ellipse cx="200" cy="190" rx="75" ry="80" fill="#DAA520"/>
+  
+  <!-- Large ears -->
+  <ellipse cx="130" cy="185" rx="45" ry="60" fill="#C8960C"/>
+  <ellipse cx="270" cy="185" rx="45" ry="60" fill="#C8960C"/>
+  <!-- Ear inner -->
+  <ellipse cx="132" cy="185" rx="30" ry="42" fill="#FFB700" opacity="0.5"/>
+  <ellipse cx="268" cy="185" rx="30" ry="42" fill="#FFB700" opacity="0.5"/>
+  
+  <!-- Eyes -->
+  <circle cx="172" cy="175" r="14" fill="white"/>
+  <circle cx="228" cy="175" r="14" fill="white"/>
+  <circle cx="172" cy="175" r="9" fill="#333"/>
+  <circle cx="228" cy="175" r="9" fill="#333"/>
+  <circle cx="175" cy="172" r="4" fill="white"/>
+  <circle cx="231" cy="172" r="4" fill="white"/>
+  
+  <!-- Third eye / bindi -->
+  <ellipse cx="200" cy="158" rx="6" ry="5" fill="#FF4500"/>
+  
+  <!-- Trunk (curled right - auspicious) -->
+  <path d="M200 210 Q175 240 165 265 Q155 295 175 305 Q195 315 210 300 Q225 285 215 275" stroke="#DAA520" stroke-width="22" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tusks -->
+  <path d="M175 215 Q150 235 140 255" stroke="#FFFFF0" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M225 215 Q255 225 270 245" stroke="#FFFFF0" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Crown -->
+  <path d="M135 125 L155 95 L175 115 L200 80 L225 115 L245 95 L265 125 Z" fill="#FFD700"/>
+  <circle cx="200" cy="80" r="10" fill="#FF4500"/>
+  <circle cx="155" cy="95" r="7" fill="#00AA00"/>
+  <circle cx="245" cy="95" r="7" fill="#00AA00"/>
+  
+  <!-- Jewelry / necklace -->
+  <path d="M155 225 Q200 250 245 225" stroke="#FFD700" stroke-width="5" fill="none"/>
+  <circle cx="200" cy="248" r="7" fill="#FF8C00"/>
+  <circle cx="175" cy="237" r="5" fill="#FF4500"/>
+  <circle cx="225" cy="237" r="5" fill="#FF4500"/>
+  
+  <!-- Modak (sweet) in right hand -->
+  <ellipse cx="315" cy="305" rx="20" ry="22" fill="#DEB887"/>
+  <ellipse cx="315" cy="295" rx="12" ry="8" fill="#C19A6B"/>
+  
+  <!-- OM symbol on stomach -->
+  <text x="200" y="350" font-family="serif" font-size="36" fill="#8B4513" text-anchor="middle" opacity="0.6">ॐ</text>
+  
+  <!-- Name -->
+  <text x="200" y="490" font-family="Georgia, serif" font-size="18" fill="#8B4513" text-anchor="middle" font-weight="bold">Shri Ganesha</text>
+  
+  <!-- Glow effect -->
+  <defs>
+    <radialGradient id="bodyPattern" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF8C00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#FFFF99" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FFF8DC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="200" cy="150" rx="150" ry="200" fill="url(#glow)"/>
+  
+  <!-- Border -->
+  <rect x="2" y="2" width="396" height="496" fill="none" stroke="#FFD700" stroke-width="3" rx="0"/>
+</svg>

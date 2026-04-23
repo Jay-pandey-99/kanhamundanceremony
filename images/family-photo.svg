@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <!-- Background with warm gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <radialGradient id="skinGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFCBA4"/>
+      <stop offset="100%" stop-color="#D4845A"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="400" fill="url(#bgGrad)" rx="0"/>
+  
+  <!-- Decorative border -->
+  <rect x="5" y="5" width="490" height="390" fill="none" stroke="#FFD700" stroke-width="3" rx="10"/>
+  <rect x="10" y="10" width="480" height="380" fill="none" stroke="#FFA500" stroke-width="1" rx="8"/>
+  
+  <!-- Floor/ground -->
+  <rect x="0" y="330" width="500" height="70" fill="#F5E6D3"/>
+  <rect x="0" y="325" width="500" height="10" fill="#DEB887"/>
+  
+  <!-- Mother figure (left, in saree) -->
+  <!-- Mother body/saree -->
+  <ellipse cx="160" cy="300" rx="40" ry="70" fill="#E91E63"/>
+  <!-- Saree drape -->
+  <path d="M125 250 Q120 290 125 340 Q140 360 175 350 Q190 340 185 300 Q180 260 170 240 Z" fill="#C2185B"/>
+  <!-- Dupatta/pallu -->
+  <path d="M120 240 Q110 220 125 205 Q140 195 155 205 Q160 215 155 230" fill="#F48FB1" stroke="#E91E63" stroke-width="1"/>
+  
+  <!-- Mother head -->
+  <circle cx="155" cy="205" r="28" fill="url(#skinGrad)"/>
+  <!-- Hair bun -->
+  <ellipse cx="155" cy="183" rx="20" ry="12" fill="#3E2723"/>
+  <circle cx="165" cy="178" r="8" fill="#3E2723"/>
+  <!-- Bindi -->
+  <circle cx="155" cy="199" r="3" fill="#FF0000"/>
+  <!-- Eyes -->
+  <ellipse cx="147" cy="205" rx="4" ry="3" fill="#333"/>
+  <ellipse cx="163" cy="205" rx="4" ry="3" fill="#333"/>
+  <!-- Smile -->
+  <path d="M148 213 Q155 218 162 213" stroke="#333" stroke-width="1.5" fill="none"/>
+  <!-- Nose ring / bindi jewelry -->
+  <circle cx="155" cy="210" r="1.5" fill="#FFD700"/>
+  <!-- Earrings -->
+  <circle cx="130" cy="210" r="4" fill="#FFD700"/>
+  <circle cx="180" cy="210" r="4" fill="#FFD700"/>
+  
+  <!-- Mother arms holding child -->
+  <path d="M125 250 Q100 260 100 280 Q100 305 125 310" stroke="#D4845A" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M185 250 Q200 260 210 255 Q215 240 205 230" stroke="#D4845A" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Child 1 (baby being held by mother) -->
+  <circle cx="115" cy="295" r="22" fill="url(#skinGrad)"/>
+  <!-- Baby hair -->
+  <ellipse cx="115" cy="277" rx="16" ry="8" fill="#3E2723"/>
+  <!-- Baby features -->
+  <ellipse cx="108" cy="293" rx="3" ry="2.5" fill="#333"/>
+  <ellipse cx="122" cy="293" rx="3" ry="2.5" fill="#333"/>
+  <path d="M110 301 Q115 305 120 301" stroke="#333" stroke-width="1.5" fill="none"/>
+  <!-- Baby outfit -->
+  <ellipse cx="115" cy="317" rx="18" ry="15" fill="#81D4FA"/>
+  
+  <!-- Father figure (right) -->
+  <!-- Father body in kurta -->
+  <rect x="295" y="220" width="55" height="120" fill="#1565C0" rx="8"/>
+  <!-- Kurta collar -->
+  <path d="M315 220 L322 240 L329 220" fill="#0D47A1"/>
+  
+  <!-- Father head -->
+  <circle cx="322" cy="195" r="30" fill="url(#skinGrad)"/>
+  <!-- Hair -->
+  <ellipse cx="322" cy="170" rx="24" ry="15" fill="#2C1810"/>
+  <!-- Eyes -->
+  <ellipse cx="313" cy="195" rx="5" ry="4" fill="#333"/>
+  <ellipse cx="331" cy="195" rx="5" ry="4" fill="#333"/>
+  <!-- Smile -->
+  <path d="M314 205 Q322 211 330 205" stroke="#333" stroke-width="1.5" fill="none"/>
+  <!-- Mustache -->
+  <path d="M313 200 Q322 204 331 200" stroke="#2C1810" stroke-width="2" fill="none"/>
+  
+  <!-- Father arms holding child -->
+  <path d="M295 250 Q270 255 265 275 Q265 300 280 310" stroke="#D4845A" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M350 250 Q370 260 375 280 Q375 305 360 310" stroke="#D4845A" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- Father trousers -->
+  <rect x="295" y="330" width="55" height="65" fill="#0D47A1" rx="5"/>
+  
+  <!-- Child 2 (toddler standing between parents) -->
+  <circle cx="248" cy="290" r="25" fill="url(#skinGrad)"/>
+  <!-- Child hair -->
+  <ellipse cx="248" cy="270" rx="20" ry="10" fill="#3E2723"/>
+  <!-- Child features -->
+  <ellipse cx="240" cy="288" rx="4" ry="3" fill="#333"/>
+  <ellipse cx="256" cy="288" rx="4" ry="3" fill="#333"/>
+  <path d="M242 298 Q248 303 254 298" stroke="#333" stroke-width="1.5" fill="none"/>
+  <!-- Child outfit -->
+  <ellipse cx="248" cy="330" rx="20" ry="25" fill="#FF8F00"/>
+  <!-- Child legs -->
+  <rect x="234" y="350" width="14" height="40" fill="#FFA000" rx="5"/>
+  <rect x="250" y="350" width="14" height="40" fill="#FFA000" rx="5"/>
+  
+  <!-- Decorative flowers/rangoli at bottom -->
+  <circle cx="80" cy="360" r="8" fill="#FF4081" opacity="0.6"/>
+  <circle cx="95" cy="350" r="5" fill="#FFD700" opacity="0.6"/>
+  <circle cx="420" cy="360" r="8" fill="#FF4081" opacity="0.6"/>
+  <circle cx="405" cy="350" r="5" fill="#FFD700" opacity="0.6"/>
+  
+  <!-- Title text -->
+  <text x="250" y="30" font-family="Georgia, serif" font-size="20" fill="#8B4513" text-anchor="middle" font-weight="bold">Our Little Star</text>
+  <text x="250" y="55" font-family="Georgia, serif" font-size="14" fill="#B8860B" text-anchor="middle">✦ Mundan Sanskar ✦</text>
+  
+  <!-- Floral decoration top corners -->
+  <circle cx="50" cy="40" r="15" fill="#FF8F00" opacity="0.4"/>
+  <circle cx="450" cy="40" r="15" fill="#FF8F00" opacity="0.4"/>
+  <circle cx="35" cy="30" r="10" fill="#FFD700" opacity="0.5"/>
+  <circle cx="465" cy="30" r="10" fill="#FFD700" opacity="0.5"/>
+</svg>
