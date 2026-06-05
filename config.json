@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "CyberSecure Academy",
+    "version": "1.0.0",
+    "description": "3D Holographic Cybersecurity Learning Platform",
+    "author": "Security Education Team"
+  },
+  "curriculum": {
+    "totalTopics": 20,
+    "totalTools": 30,
+    "totalQuestions": 500
+  },
+  "features": {
+    "3dBackground": true,
+    "particleSystem": true,
+    "gamification": true,
+    "offlineMode": true,
+    "progressTracking": true
+  },
+  "security": {
+    "enableLocalStorage": true,
+    "enableDataExport": true,
+    "enableDataImport": true
+  }
+}
